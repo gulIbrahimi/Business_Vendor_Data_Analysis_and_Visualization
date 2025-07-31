@@ -72,24 +72,22 @@ All metrics are aggregated and visualized to allow **comparative vendor analysis
 
 ## 🧾 Getting Started
 
-### 1. Clone the repo
+### Clone the repo
 
-git clone
-cd my_vendor
+- git clone
+- cd my_vendor
 
 ## Upcoming Power BI Report
+
 A fully interactive Power BI dashboard will be added to this repo, visualizing:
-
-KPI cards (Gross Profit, Unsold Value, Total Vendors)
-
-Vendor ranking tables with slicers
-
-Pareto contribution curves
-
-Unsold capital by product or category
+- KPI cards (Gross Profit, Unsold Value, Total Vendors)
+- Vendor ranking tables with slicers
+- Pareto contribution curves
+- Unsold capital by product or category
 
 ### 📌 Stay tuned — .pbix file and dashboard screenshots will be included.
 
-*Contact*
-Made with love by Gul Amiz Ibrahimi
-Feel free to reach out via LinkedIn or raise an issue for feedback.
+### Contact
+
+- Made with love by Gul Amiz Ibrahimi
+- Feel free to reach out via LinkedIn or raise an issue for feedback.
