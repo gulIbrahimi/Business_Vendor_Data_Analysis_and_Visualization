@@ -18,22 +18,6 @@ The project includes:
 
 ---
 
-## 🧱 Project Structure
-
-my_vendor/
-├── data/ # Raw or intermediate data files
-├── logs/ # Logs for data processing and ingestion
-├── inventory.db # Source SQLite database
-├── ingestion_db.py # Script to connect and ingest data from SQLite
-├── get_vendor_summary.py # Script to compute vendor KPIs
-├── exploratory_data_analysis.ipynb # Notebook: EDA with visualizations
-├── my_vendor.ipynb # Notebook: End-to-end analysis
-├── vendor_performance_analysis.ipynb # Notebook: KPI metrics & charts
-├── README.md # Project documentation
-
-
----
-
 ## 📌 Business Context
 
 In supply chain and procurement-driven organizations, **tracking vendor performance and managing inventory risk** is crucial. This project simulates a real-world scenario in which:
@@ -90,8 +74,7 @@ All metrics are aggregated and visualized to allow **comparative vendor analysis
 
 ### 1. Clone the repo
 
-```bash
-git clone https://github.com/your-username/my_vendor.git
+git clone
 cd my_vendor
 
 ## Upcoming Power BI Report
@@ -105,7 +88,7 @@ Pareto contribution curves
 
 Unsold capital by product or category
 
-📌 Stay tuned — .pbix file and dashboard screenshots will be included.
+### 📌 Stay tuned — .pbix file and dashboard screenshots will be included.
 
 *Contact*
 Made with love by Gul Amiz Ibrahimi
