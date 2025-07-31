@@ -90,6 +90,24 @@ We begin by outlining the core business question: How can we assess and improve 
 - A comprehensive report is generated that summarizes all findings, visualizations, and recommendations for improving vendor performance. This report is intended for business stakeholders to make informed decisions.
 
 ---
+## Visualization Example: Confidence Interval Comparison
+
+A key analysis performed in this project is the comparison of **top vendors** vs **low vendors** based on their **profit margin** using **confidence intervals**. 
+
+Below is a visualization that compares the **95% confidence intervals** for the **top vendors** and **low vendors** profit margins. The confidence intervals are shown as dashed lines around the mean profit margin, allowing us to compare the reliability of these two groups' profit margins.
+
+### Graph Description:
+- **Top Vendors** are represented in **blue**, while **Low Vendors** are represented in **red**.
+- The **mean** of each group is denoted by a solid vertical line, and the **95% confidence intervals** are shown as dashed vertical lines for both the upper and lower bounds.
+
+**The graph compares:**
+- The distribution of profit margins for top vs. low-performing vendors.
+- The statistical significance of these margins through confidence intervals.
+
+### Graph:
+
+![Confidence Interval Comparison: Top vs Low Vendors (Profit Margin)](assets/graph.png)
+
 
 ## How to Run
 
