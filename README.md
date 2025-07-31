@@ -2,7 +2,6 @@
 
 Welcome to my Data Analytics Case Study focused on **Vendor Performance Analysis**! This project demonstrates a real-world use case where we analyze vendor data to assess their performance, identify patterns, and provide actionable insights. The entire project spans from data ingestion, cleaning, exploratory data analysis (EDA), hypothesis testing, and visualization in Power BI.
 
-This project is ideal for anyone aspiring to be a Data Analyst and is designed to be added to a portfolio to showcase both technical skills and analytical thinking. The dataset contains over 2GB of data, offering a deep dive into handling large datasets and performing in-depth analysis.
 
 ## Project Overview
 
@@ -15,7 +14,31 @@ In this project, I follow a comprehensive data analytics workflow that is applic
 5. **Power BI Dashboard** – A dynamic Power BI dashboard is built to visualize the data insights and track vendor performance in real-time.
 6. **Report Writing** – A final report is generated summarizing the analysis and presenting actionable insights to stakeholders.
 
+## Datasets Used
 
+### 1. **`vendor_invoice.csv`**
+   - Contains detailed records of vendor invoices, including invoice numbers, dates, amounts, and vendor IDs.
+   - **Usage**: This data was used to analyze the financial transactions with vendors, assessing whether vendors meet agreed-upon terms such as pricing and delivery schedules.
+
+### 2. **`sales.csv`**
+   - Contains sales data including sales transactions, dates, quantities sold, and sales prices.
+   - **Usage**: Sales performance is one of the key metrics to evaluate vendor success. This data was analyzed to measure each vendor’s contribution to the overall sales performance.
+
+### 3. **`purchases.csv`**
+   - Tracks purchase transactions, including item IDs, quantities purchased, dates, and associated vendor information.
+   - **Usage**: The data from `purchases.csv` was used to evaluate the efficiency of vendors in fulfilling orders and the volume of purchases made from each vendor.
+
+### 4. **`purchase_prices.csv`**
+   - Contains information about the price of products from different vendors.
+   - **Usage**: This data was used to assess the cost-effectiveness of each vendor and compare the prices for similar products across vendors.
+
+### 5. **`end_inventory.csv`**
+   - Includes information on the stock levels at the end of a given period.
+   - **Usage**: This data is useful for understanding how vendor performance affects inventory levels and sales forecasts.
+
+### 6. **`begin_inventory.csv`**
+   - Contains information on the stock levels at the beginning of a given period.
+   - **Usage**: Used in conjunction with `end_inventory.csv` to track inventory changes and assess vendor performance in maintaining stock levels.
 
 ---
 
@@ -34,16 +57,13 @@ In this project, I follow a comprehensive data analytics workflow that is applic
 
 ## Data Description
 
-The dataset used in this project is a simulated vendor performance dataset that includes various metrics to evaluate vendors, such as:
+The datasets used in this project are detailed below. Each dataset contributes specific insights into evaluating vendor performance:
 
-- Vendor ID
-- Sales Performance
-- Delivery Timeliness
-- Customer Satisfaction Scores
-- Return Rates
-- Order Fulfillment Metrics
-
-The dataset is large, approximately **2 GB**, and requires efficient data cleaning, transformation, and analysis techniques to extract valuable insights.
+- **`vendor_invoice.csv`**: Contains invoice data with key metrics like invoice amount, dates, and vendor IDs.
+- **`sales.csv`**: Holds information on sales transactions, allowing for sales analysis and vendor contribution evaluation.
+- **`purchases.csv`**: Provides purchase transaction data, which is used to evaluate vendor fulfillment and purchasing trends.
+- **`purchase_prices.csv`**: Tracks price information from vendors, helping us assess cost efficiency.
+- **`end_inventory.csv`** and **`begin_inventory.csv`**: Inventory data used to measure how vendor performance affects stock levels and how accurately vendors forecast their supply.
 
 ---
 
