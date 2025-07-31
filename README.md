@@ -1,93 +1,96 @@
-# 📦 Vendor Performance & Inventory Analytics
+# Vendor Performance Analysis - Data Analytics Case Study
 
-**Comprehensive analysis of vendor performance, inventory efficiency, and purchasing behavior using Python, SQL, and Power BI**
+Welcome to my Data Analytics Case Study focused on **Vendor Performance Analysis**! This project demonstrates a real-world use case where we analyze vendor data to assess their performance, identify patterns, and provide actionable insights. The entire project spans from data ingestion, cleaning, exploratory data analysis (EDA), hypothesis testing, and visualization in Power BI.
 
----
+This project is ideal for anyone aspiring to be a Data Analyst and is designed to be added to a portfolio to showcase both technical skills and analytical thinking. The dataset contains over 2GB of data, offering a deep dive into handling large datasets and performing in-depth analysis.
 
-## 🔍 Overview
+## Project Overview
 
-This project delivers a **data-driven vendor performance analysis** built on top of a SQLite database. Through **exploratory data analysis (EDA)**, interactive **Power BI dashboards**, and step-by-step Python visualizations, it uncovers key insights in purchasing trends, profitability, and inventory health — enabling smarter procurement and supply chain decisions.
+In this project, I follow a comprehensive data analytics workflow that is applicable in real-world scenarios, utilizing tools such as SQL, Python, and Power BI to analyze vendor performance data. Here's a quick rundown of the process:
 
-The project includes:
+1. **Understanding the Business Problem** – We begin by defining the project scope and determining the business questions that need to be answered.
+2. **Data Ingestion & Cleaning** – SQL is used to ingest data and clean it for analysis, ensuring accuracy and consistency.
+3. **Exploratory Data Analysis (EDA)** – Python libraries such as Pandas, Matplotlib, and Seaborn are employed for data visualization and statistical analysis.
+4. **Hypothesis Testing & Confidence Interval** – Statistical testing is performed to validate our assumptions and provide confidence in the analysis results.
+5. **Power BI Dashboard** – A dynamic Power BI dashboard is built to visualize the data insights and track vendor performance in real-time.
+6. **Report Writing** – A final report is generated summarizing the analysis and presenting actionable insights to stakeholders.
 
-- 📊 Step-by-step **EDA with visual storytelling**
-- 🧮 Key metric calculations (sales, gross profit, contribution %, unsold capital)
-- 📈 **Pareto analysis** and vendor segmentation
-- 📌 Integration with **Power BI** (coming soon)
-- 💡 Real-world business insights from raw transactional data
 
----
-
-## 📌 Business Context
-
-In supply chain and procurement-driven organizations, **tracking vendor performance and managing inventory risk** is crucial. This project simulates a real-world scenario in which:
-
-- Historical purchase and sales data is stored in a relational database
-- Business users need insights on:
-  - Who are the top vendors by value?
-  - What percentage of purchases are concentrated among a few suppliers?
-  - How much capital is locked in unsold inventory?
-  - Which vendors have high margins but low sales?
-
-This project addresses all of these questions — visually and analytically.
 
 ---
 
-## 🛠️ Technologies Used
+## Tools and Technologies Used
 
-- **Python 3.8+**
-  - `pandas`, `matplotlib`, `seaborn` for analysis & visualizations
-  - `sqlite3` for database access
-- **Jupyter Notebooks** for step-by-step EDA and model development
-- **Power BI** *(coming soon)* for dashboards & interactive reporting
-- **Git & GitHub** for version control
-
----
-
-## 📊 Key Visualizations
-
-The EDA notebook walks through the data storytelling process with:
-
-- **Pareto chart**: Cumulative contribution of vendors to total purchases  
-- **Donut chart**: Capital distribution across vendors  
-- **Bar charts**: Top vendors by gross profit, margin, and unsold value  
-- **Formatted tables**: Contribution %, unsold inventory, and performance ranking  
-
-Each plot includes annotations, labels, and clean formatting — focusing on **clarity and business interpretation**.
+- **SQL**: For data ingestion, querying, and cleaning.
+- **Python**:
+  - **Pandas**: For data manipulation and cleaning.
+  - **Matplotlib/Seaborn**: For data visualization and creating insightful charts.
+  - **SciPy**: For hypothesis testing and statistical analysis.
+- **Power BI**: For creating an interactive dashboard that tracks vendor performance in real-time.
+- **SQLite**: Used for storing the vendor data in the `inventory.db` file.
+- **Jupyter Notebooks**: For documenting the entire process, including EDA and insights generation.
 
 ---
 
-## 📈 Metrics Computed
+## Data Description
 
-- **Total Sales Dollars**
-- **Total Purchase Dollars**
-- **Gross Profit** and **Profit Margin**
-- **Purchase Contribution %** and **Cumulative Contribution %**
-- **Unsold Inventory Value**
-- **Vendor segmentation** based on performance
+The dataset used in this project is a simulated vendor performance dataset that includes various metrics to evaluate vendors, such as:
 
-All metrics are aggregated and visualized to allow **comparative vendor analysis**.
+- Vendor ID
+- Sales Performance
+- Delivery Timeliness
+- Customer Satisfaction Scores
+- Return Rates
+- Order Fulfillment Metrics
+
+The dataset is large, approximately **2 GB**, and requires efficient data cleaning, transformation, and analysis techniques to extract valuable insights.
 
 ---
 
-## 🧾 Getting Started
+## Steps & Process
 
-### Clone the repo
+### 1. **Understanding the Business Problem**
+We begin by outlining the core business question: How can we assess and improve vendor performance based on key metrics?
 
-- git clone
-- cd my_vendor
+### 2. **Data Ingestion & Cleaning**
+- **SQL** is used to pull data from the `inventory.db` SQLite database.
+- We clean the data by handling missing values, removing duplicates, and ensuring data consistency.
 
-## Upcoming Power BI Report
+### 3. **Exploratory Data Analysis (EDA)**
+- Using **Python (Pandas, Matplotlib, Seaborn)**, we perform data visualization to spot trends, correlations, and outliers.
+- We generate histograms, bar charts, scatter plots, and heatmaps to make the data more understandable.
 
-A fully interactive Power BI dashboard will be added to this repo, visualizing:
-- KPI cards (Gross Profit, Unsold Value, Total Vendors)
-- Vendor ranking tables with slicers
-- Pareto contribution curves
-- Unsold capital by product or category
+### 4. **Hypothesis Testing & Confidence Interval**
+- To validate assumptions, we perform hypothesis testing (e.g., T-tests) and calculate confidence intervals to ensure the findings are statistically significant.
 
-### 📌 Stay tuned — .pbix file and dashboard screenshots will be included.
+### 5. **Power BI Dashboard**
+- After analyzing the data, we create an interactive Power BI dashboard that visualizes the most important vendor performance metrics. This includes KPIs such as on-time delivery, customer satisfaction, and sales performance.
 
-### Contact
+### 6. **Report Writing**
+- A comprehensive report is generated that summarizes all findings, visualizations, and recommendations for improving vendor performance. This report is intended for business stakeholders to make informed decisions.
 
-- Made with love by Gul Amiz Ibrahimi
-- Feel free to reach out via LinkedIn or raise an issue for feedback.
+---
+
+## How to Run
+
+### Prerequisites
+- Python 3.x
+- Required Python Libraries: `pandas`, `matplotlib`, `seaborn`, `scipy`, `sqlite3`, `pyodbc`
+- Power BI Desktop (for visualizing the dashboard)
+
+## Future Improvements
+- **Expand Data Sources**: Integrate additional data sources to get a more holistic view of vendor performance.
+
+- **Automated Reporting**: Automate the generation of reports using Python or Power BI services.
+
+- **Advanced Predictive Analytics**: Implement machine learning models to predict future vendor performance.
+
+## Conclusion
+This project showcases a work through a full data analytics lifecycle — from data ingestion, cleaning, and analysis to creating interactive dashboards and generating insightful reports. I used industry-standard tools such as SQL, Python, and Power BI, ensuring a solid understanding of data analytics in real-world scenarios.
+
+Feel free to explore the project, try the code, and get in touch for any questions or feedback!
+
+## Contact
+- LinkedIn
+- Email: ibrah23g@mtholyoke.edu
+- GitHub
