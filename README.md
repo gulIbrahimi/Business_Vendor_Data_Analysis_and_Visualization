@@ -1,6 +1,9 @@
 # Vendor Performance Analysis - Data Analytics Case Study
 
-Welcome to my Data Analytics Case Study focused on **Vendor Performance Analysis**! This project demonstrates a real-world use case where we analyze vendor data to assess their performance, identify patterns, and provide actionable insights. The entire project spans from data ingestion, cleaning, exploratory data analysis (EDA), hypothesis testing, and visualization in Power BI.
+Welcome to our Data Analytics Case Study focused on **Vendor Performance Analysis**! This project demonstrates a real-world use case where we analyze vendor data to assess their performance, identify patterns, and provide actionable insights. The entire project spans from data ingestion, cleaning, exploratory data analysis (EDA), hypothesis testing, and visualization in Power BI.
+
+## Collaborator:
+Roqia Ibrahimi | @roqiaibrahimi
 
 
 ## Project Overview
